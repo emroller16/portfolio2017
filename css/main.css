@@ -1,0 +1,191 @@
+
+
+/* -------------Homepage---------------*/
+
+/*-------Portfolio--------*/
+
+.portfolio-section .row {
+margin:0px!important
+}
+
+@media only screen and (min-width: 1700px) {
+.portfolio-inner {
+min-width:500px!important;
+}
+}
+
+.portfolio-box > img {
+    max-height: 277px;
+}
+
+/*-------Resume--------*/
+
+.experience-inner img {
+    max-width: 200px;
+}
+
+#mintz-img {
+    padding-bottom: 15px!important;
+    padding-top: 15px!important;
+}
+
+.tyler .experience-inner {
+    background-color: #73185E;
+}
+
+#tyler-img {
+    padding-bottom:35px!important;
+    padding-top:15px!important;
+}
+
+#uconn-img {
+    padding-bottom:35px!important;
+    padding-top:15px!important;
+}
+
+/*-----------Interior Pages---------------------*/
+.interior-navbar {
+	background-color: white!important;
+	padding: 20px 0 7px!important;
+}
+
+.interior {
+	margin-top:10rem;
+}
+
+.interior-fixed-image {
+    display:none;
+}
+
+@media only screen and (min-width: 768px) {
+    .interior-fixed-image {
+        background-position: 50% 0!important;
+        background-size: cover!important;
+        display: block;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        bottom: 0;
+}
+}
+
+#core-lab-fixed-image {
+    background:url("../img/core-lab-long.png") no-repeat;
+}
+
+#cru-fixed-image {
+    background:url("../img/cruatuconn-fixed.png") no-repeat;
+    background-position: 0 0!important;
+}
+
+#academic-fixed-image {
+    background:url("../img/academic-it-long.png") no-repeat;
+}
+
+#cru-social-fixed-image {
+    background:url("../img/cru-fixed.png") no-repeat;
+}
+
+#thesis-fixed-image {
+    background:url("../img/thesis-fixed.png") no-repeat;
+    margin-top: 2rem;
+}
+
+#co-social-fixed-image {
+    background:url("../img/co-insta.png") no-repeat;
+}
+
+#software-fixed-image {
+    background:url("../img/software-long.png") no-repeat;
+}
+
+#email-fixed-image {
+    background:url("../img/email-fixed.png") no-repeat;
+}
+
+#email-sub-image {
+    background:url("../img/email-mockup-full.png") no-repeat;
+    background-size: cover!important;
+    width:99%;
+    min-height:1400px;
+}
+
+.interior-title {
+    display:none;
+    font-size: 5em;
+    padding-bottom: 0px;
+    line-height: .7;
+    padding-top: 2rem;
+}
+
+.interior-title-sub {
+    font-size: 25px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight:600;
+}
+
+.interior-body {
+	padding: 0rem 4rem;
+    float: right;
+}
+
+.interior-category {
+    display:none;
+	font-family:"Fira Sans", sans-serif;
+	font-size:1.15em;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.interior-category:after {
+	content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #73185E;
+    margin-top:5px;
+}
+
+.cru-social-interior .interior-category:after {
+    width:73px!important;
+}
+
+.thesis-interior .interior-category:after {
+    width:75px!important;
+}
+
+/*.interior-scroll {
+    display:none;
+}*/
+
+.interior-intro {
+    font-size:1.35em;
+}
+
+.interior-body-copy h3 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 3rem!important;
+}
+
+.interior-body-copy ul {
+    font-size:1.15em;
+}
+
+.interior-sub-image {
+	background:url("../img/core-lab-home.png") no-repeat 50% 50% fixed;
+	background-size: cover;
+}
+
+#thesis-abstract {
+    font-size:1.15em;
+
+}
+
+
+
+
+
+
+
+
+

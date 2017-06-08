@@ -1,0 +1,312 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@charset "utf-8";
+/* CSS Document */
+
+/* General Styles*/
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-weight:300;
+	font-size:22px;
+}
+
+h1 {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.headers {
+	font-family:"Fira Sans", sans-serif;
+	font-size:42px;
+}
+
+ul {
+	font-family: "Open Sans", sans-serif;
+	font-weight:300;
+	font-size:22px;	
+}
+
+.container	{
+	width:1020px;
+	margin:0 auto;
+}
+
+.container-fixed {
+	width:1250px;
+	margin:0 auto;
+}
+
+/*Navgation Bar */
+.navbar-right {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 32px;
+	background-color: transparent;
+	color:black;
+}
+
+
+.nav.navbar-nav.navbar-right li a {
+	color:black;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+	color:white;
+}
+
+.nav.navbar-nav.navbar-brand a {
+	color:white;
+}
+
+.navbar-brand li a {
+	color:white;
+}
+
+.navbar-brand {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 42px;
+}
+
+.navbar-inverse .navbar-brand { color:white; }
+
+.navbar-inverse .navbar-brand a:hover { color:black; }
+
+.navbar {
+	background-color: transparent;
+}
+
+.navbar-inverse	{
+	background-color: transparent;
+}
+
+
+
+/*Homepage*/
+
+/*Home Header*/
+
+#homeHeader {
+	background-image: url(../img/HomeHeader.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:350px;	
+}
+
+#homeHeader h1 {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 64px;
+	padding-top: 9%;
+	padding-left:7%;
+	color:white;
+}
+
+#homeBody {
+	margin:auto;
+}
+
+#homeBody ul {
+	font-family: "Open Sans", sans-serif;
+	font-weight:300;
+	font-size:22px;	
+}
+
+#homeBody h1 a {
+	color:#a4d0c4;
+}
+
+#portfolioPreview img{
+	height:400px;
+}
+
+#portfolioPreview {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+	
+#peak {
+	color: #a4d0c4;
+}
+/*Resume*/
+#resumeHeader {
+	background-image: url(../img/resume-header.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:350px;
+}
+
+#resumeHeader h1{
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 64px;
+	padding-top: 11%;
+	padding-left:7%;
+	color: white ;
+}
+
+/*#acadiaImg {
+	float:left;
+	margin-left: 2%;
+}*/
+
+/*Portfolio*/
+#portfolioHeader {
+	background-image: url(../img/portfolio-header1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	color:white;
+	height:350px;
+}
+#portfolioHeader h1 {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 64px;
+	padding-top: 9%;
+	padding-left:65%;
+	color: black;
+}
+
+/*#Heirloom {
+	background-color: #fefee7;
+	padding-bottom: 4%;
+}
+#heirloom p {
+	padding-left:1%;
+}
+
+#Acadia {
+	background-color: #a4d0c4;
+	padding-bottom: 4%;
+}
+*/
+#Writing {
+	background-color: #9a9c9f;
+	padding-bottom: 4%;
+}
+
+#write {
+	float:right;
+	margin-right:3%;
+	padding-bottom: 4%;
+}
+
+#Continue {
+	background-color: #9a9c9f;
+	padding-bottom: 4%;
+}
+
+#Continue h1 a {
+	color:#a4d0c4;
+}
+
+#Advising {
+	background-color: #fefee7;
+	padding-bottom: 4%;
+}
+
+#Advising img{
+	float: right;
+	padding-bottom: 2%;
+}
+
+#Fidelco {
+	background-color: #a4d0c4;
+	padding-bottom: 4%;
+}
+
+#Fidelco img {
+	float:left;
+	padding-bottom:2%;
+	}
+
+/*Contact*/
+#contactHeader {
+	background-image: url(img/contact-header.png) ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:350px;
+}
+
+#contactHeader h1 {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 64px;
+	color:white;
+	padding-top: 9%;
+	padding-left:7%
+}
+
+#Contact {	
+	background-color: #a4d0c4;
+	height: 500px;
+	}
+
+#Contact h1 {
+	padding-top: 100px;
+	margin-top: 100px;
+	margin-bottom:100px;
+}
+
+#Contact2 {
+	background-color: #fefee7;
+	height:500px;
+}
+
+#Contact2 p {
+	padding-top: 75px;
+	padding-bottom: 25px;
+}
+
+/*-----------Core Lab Page ---------------------*/
+.interior-fixed-image {
+	background:url("img/core-lab-home.png") no-repeat 50% 50% fixed;
+	background-size: cover;
+	position: absolute;
+}
+
+.interior-body {
+	position: block;
+}
+
+.interior-category {
+	font-family:"Fira Sans", sans-serif;
+	font-size:16px;
+	text-transform: uppercase;
+	margin-bottom: 0px!important;
+}
+
+.interior-category:after {
+	content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #73185E;
+    margin-top:5px;
+}
+
+.interior-title {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.interior-intro {
+	text-align:center;
+	font-size:1.2em;
+}
+
+.interior-sub-image {
+	background:url("../img/core-lab-home.png") no-repeat 50% 50% fixed;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+

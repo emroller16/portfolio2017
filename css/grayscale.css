@@ -1,0 +1,162 @@
+body { width: 100%; height: 100%; font-family: "Roboto Slab", serif; color: black; margin-right: 0px; }
+
+html { width: 100%; height: 100%; }
+
+@font-face { font-family: 'Gotham'; src: url("Gotham.ttf") format("truetype"); }
+hr { max-width: 50px; border-color: #73185E; border-width: 3px; }
+
+h1, h2 { margin: 0 0 35px; font-family: "Unica One", cursive; font-weight: 700; letter-spacing: 1px; }
+
+.h2, h2 { font-size: 3em; }
+
+h3, h4, h5, h6 { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0 0 35px; font-weight: 700; letter-spacing: 1px; }
+
+.h3, h3 { font-size: 2.5em; }
+
+.h4, h4 { font-size: 1.9em; }
+
+p { margin: 0 0 25px; font-family: "Roboto Slab", serif; font-size: 18px; line-height: 1.5; }
+@media (min-width: 768px) { p { margin: 0 0 35px; font-size: 20px; line-height: 1.6; } }
+
+a { color: #8B911A; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+a:hover, a:focus { text-decoration: none; color: #1d9b6c; }
+
+.light { font-weight: 400; }
+
+.section-header { color: #73185E; }
+
+/*Custom Nav */
+.navbar-custom { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); text-transform: uppercase; font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; background-color: white; }
+.navbar-custom .navbar-toggle { padding: 4px 6px; font-size: 16px; color: #73185E; }
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active { outline: none; }
+.navbar-custom .navbar-brand { font-weight: 700; color: #73185E; }
+.navbar-custom .navbar-brand:focus { outline: none; }
+.navbar-custom a { color: #c6c2c2; }
+.navbar-custom .collapse-color { color: #73185E; }
+.navbar-custom .nav li a { -webkit-transition: background .3s ease-in-out; -moz-transition: background .3s ease-in-out; transition: background .3s ease-in-out; }
+.navbar-custom .nav li a:hover { color: rgba(115, 24, 94, 0.8); outline: none; background-color: rgba(227, 246, 190, 0.2); }
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active { outline: none; background-color: transparent; }
+.navbar-custom .nav li.active { outline: none; }
+.navbar-custom .nav li.active a { background-color: rgba(0, 0, 0, 0.1); }
+.navbar-custom .nav li.active a:hover { color: black; }
+@media (min-width: 768px) { .navbar-custom { padding: 20px 0; border-bottom: none; letter-spacing: 1px; background: transparent; -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out; -moz-transition: background .5s ease-in-out,padding .5s ease-in-out; transition: background .5s ease-in-out,padding .5s ease-in-out; }
+  .navbar-custom.top-nav-collapse { padding: 0; background: white; border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .navbar-custom.top-nav-collapse a { color: #73185E; }
+  .navbar-custom .collapse-color { color: #c6c2c2; } }
+
+.nav-img { display: inline-block !important; height: 35px; }
+
+/*Intro Text*/
+.intro { display: table; width: 100%; padding-top: 100px 0; text-align: center; background: url(../img/whiteleaf400.png) repeat center center fixed; height: 100vh; width: 100vw; }
+
+.brand-heading, .intro-text { color: #73185E; }
+
+.brand-heading { margin-top: 13%; }
+
+.highlight { background: rgba(255, 255, 255, 0.4); }
+
+.intro .intro-body { display: table-cell; vertical-align: middle; }
+
+.intro .intro-body .brand-heading { font-size: 4.2em; }
+
+.intro .intro-body .intro-text { font-size: 1.7em; }
+
+@media (min-width: 768px) { .intro { height: 90vh; padding: 0; }
+  .intro .intro-body .brand-heading { font-size: 6em; }
+  .intro .intro-body .intro-text { font-size: 1.8em; } }
+/*About*/
+#about { /* background: url(../img/about-bg.png);*/ background-repeat: repeat; -webkit-background-repeat: repeat; -moz-background-repeat: repeat; -o-background-repeat: repeat; }
+
+.row-about { padding-bottom: 5%; }
+
+.about-header { background-color: #fff; color: #73185E; }
+.about-header h2 { padding-top: 5%; padding-bottom: 2%; width: 150px; margin: 0 auto; }
+
+.header-elevator { color: #000; text-align: center; margin-top: 0; padding-top: 0; }
+
+@media (min-width: 1200px) { .header-elevator { text-align: left; padding-top: 10%; margin-top: 30%; margin-left: 50px; } }
+@media (min-width: 990px) { #about img { margin-top: -5%; } }
+#elevator { padding-left: 3%; vertical-align: middle; color: #000; }
+@media (min-width: 990px) { #elevator { padding-left: 8%; } }
+
+.content-section { padding-top: 10px; }
+
+/* Portfolio Section */
+.portfolio-section { width: 100%; padding: 50px 0; color: white; center: center scroll; background: url(../img/about-bg.png) repeat center center fixed; }
+.portfolio-section h2 { color: #73185E; }
+
+.portfolio-box > img { width: 400px; margin: 0 auto; }
+
+.portfolio-box { display: block; position: relative; margin: 0 auto; max-width: 650px; }
+
+.portfolio-box .portfolio-box-caption { display: block; position: absolute; bottom: 0; width: 100%; height: 100%; text-align: center; color: #fff; opacity: 0; background: rgba(139, 145, 26, 0.8); -webkit-transition: all .5s; -moz-transition: all .5s; transition: all .5s; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content { position: absolute; top: 50%; width: 100%; text-align: center; transform: translateY(-50%); }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { padding: 0 15px; font-family: "Gotham", sans-serif; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category { text-transform: uppercase; font-size: 1.2em; font-weight: 600; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 1.4em; }
+
+.portfolio-box:hover .portfolio-box-caption { opacity: 1; }
+
+@media (min-width: 767px) { .portfolio-section { padding: 50px 0; }
+  .portfolio-box > img { width: 100%; }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category { font-size: 1.3em; }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name { font-size: 1.6em; } }
+.portfolio-inner { min-height: 375px; }
+
+/*Experience*/
+.experience-row { margin-top: 0%; }
+.experience-row h3 { webkit-margin-after: 0em; }
+
+.mintz { background-color: #8B911A; }
+
+.uconn { background-color: #36BBA6; }
+
+.sec { background-color: #73185E; }
+
+.experience-inner { height: 425px; padding: 5% 2%; }
+.experience-inner h4 { color: white; }
+.experience-inner ul { color: white; }
+.experience-inner h5 { color: white; }
+.experience-inner img { padding-bottom: 2%; }
+
+/* Skills*/
+.resume-container { background: url(../img/green-pattern770.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; min-height: 90vh; width: 100vw; padding-top: 5%; }
+@media (min-width: 760px) { .resume-container { background: url(../img/green-pattern1400.png) no-repeat center center fixed; } }
+
+.center-container { max-width: 750px; margin: 0 auto; text-align: center; }
+.center-container img { width: 50px; }
+@media (min-width: 580px) { .center-container img { width: 75px; } }
+.center-container h5 { margin-top: 5%; }
+
+.skills-inner { min-height: 100px; }
+@media (min-width: 580px) { .skills-inner { min-height: 120px; } }
+
+/*Contact*/
+#contact { center: center scroll; background: url(../img/bg7.png) repeat center center fixed; padding-top: 5%; padding-bottom: 5%; min-height: 300px; }
+#contact h1 { padding-bottom: 2%; }
+
+.center-container-contact { max-width: 880px; margin: 0 auto; }
+
+@media (min-width: 990px) { .contact-text { text-align: left; } }
+#contact a { margin: 0px; font-size: 1.1em; }
+#contact p { -webkit-margin-after: 0em; }
+
+footer { padding: 2% 0; }
+footer img { display: inline block; height: 30px; }
+footer h5 { color: #73185E; font-size: 1.2em; margin-bottom: 0px; }
+
+::-moz-selection { text-shadow: none; background: #fcfcfc; background: rgba(255, 255, 255, 0.2); }
+
+::selection { text-shadow: none; background: #fcfcfc; background: rgba(255, 255, 255, 0.2); }
+
+img::selection { background: transparent; }
+
+img::-moz-selection { background: transparent; }
+
+body { -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+/*# sourceMappingURL=grayscale.css.map */
